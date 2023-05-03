@@ -1,0 +1,38 @@
+body{
+    color: greenyellow;
+    background-color: red ;
+    font-family: 'Courier New', Courier, monospace;   
+    
+    }
+
+.vertical-menu a {
+background-color: red;
+color: greenyellow;
+display: block;
+padding: 12px;
+text-decoration: none;
+}
+
+.vertical-menu a:hover {
+background-color: #ccc;    
+}
+
+.vertical-menu a.active {
+    background-color: red;
+    color: greenyellow;
+}
+.gallery {
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 0px;
+}
+
+.gallery__img {
+    width: 22vh;
+    height: 22vh;
+    object-fit: fill;
+    display:block;
+
+}
+
